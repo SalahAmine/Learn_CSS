@@ -1,0 +1,68 @@
+:root {
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif
+}
+
+header {
+    background-color: #283e4a;
+
+}
+
+header section {
+    background-color: white;
+}
+
+.vizcard {
+    display: inline-block;
+    margin:5px;
+    height:100px;
+    width:20%
+}
+
+.vizcard img {
+    height:70px;
+    width:50px;
+}
+
+.coordonnees {
+    display: inline-block;
+    height:100px;
+    width:20%   
+}
+.body_section {
+    border:2px dotted black; 
+}
+.experience-card {
+    color:white;
+    background-color: #283e4a;
+    
+    margin:10px 0px;
+
+    border:2px dotted black;
+    border-radius: 2px; 
+
+border-radius: 0px 0px 64px 0px;
+-moz-border-radius: 0px 0px 64px 0px;
+-webkit-border-radius: 0px 0px 64px 0px;
+border: 0px dashed #000000;
+}
+
+footer {
+    color:white;
+    background-color: #283e4a;
+}
+
+footer nav ul {
+    padding: 20px;
+    margin:20px;
+    list-style: none;
+}
+
+footer nav ul li {
+    padding: 3px;
+    margin:1px;
+}
+
+
+.titles {
+    color: #283e4a;
+}
