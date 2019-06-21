@@ -1,0 +1,35 @@
+
+p {
+    background-color: red;
+    display: inline;
+    /* width: 30% */
+}
+
+p {
+    background-color: red;
+    display: block;
+    /* width: 30%  */
+}
+
+
+p {
+    background-color:blue;
+    display: inline-block;
+    /* width: 30% */
+}
+
+
+p.demo {
+    background-color:goldenrod;
+    display: inline-block;
+    width: 30% ;
+    /* height: 10% */
+}
+
+img {
+    display: block;
+}
+
+img {
+    display: inline;
+}
