@@ -1,0 +1,174 @@
+body {
+    font-family: Verdana,sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    border-bottom : 3px solid black;
+    display: flex;
+}
+
+header>#fullname{
+    flex-basis: 75%;
+    height: 50px; 
+    font-size: 4em;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+    min-width: 500px;
+}
+
+header>#fullname>#prenom {
+    color:#50c4c0;
+}
+header>#fullname>#nom {
+    font-weight: bold;
+}
+
+header>#contacts {
+    flex-basis: 25%;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
+
+header #contacts li { 
+    list-style-type:none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top:30px;
+    margin-left:10px;
+    /*! justify-content: space-between; */
+}
+
+main>#left-side {
+    display: flex;
+    flex-basis: 75%;
+    flex-direction: column;
+    min-width: 900px;
+    /*! margin-left: 20px; */
+}
+
+
+main>#left-side>#work_exp{
+    background-color: #efefef;
+}
+
+
+#work_exp article, #charity_work article{
+    display: flex;
+}
+
+
+.annee_exec {
+    width: 6%;
+    margin-top:80px;
+    padding-left:15px;
+    text-align: center;
+}
+
+.mission_gen { 
+    width: 94%;
+    max-width: 1000px;
+    border-left : 2px solid black;
+    margin-top: 2px;
+    padding:12px;
+    text-align: justify;
+}
+
+
+
+main>#right-side{
+    display: flex;
+    flex-basis: 22%;
+    flex-direction: column;
+    /*! margin: ; */
+    /*! justify-content: space-between; */
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+main h1{
+    padding:10px;
+    line-height:0.7;
+    font-size: 2em;
+    margin-bottom: 0px;
+  }
+
+main h1:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    width: 80%; /* Change this to whatever width you want. */
+    padding-top: 15px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid black; /* This creates the border. Replace black with whatever color you want. */
+}
+
+
+
+#objective, #education, #leadership {
+    /*! justify-content: space-between; */
+    background-color: #efefef;
+    margin-bottom: 25px;
+    /*! margin-left: 20px; */
+    /*! margin-right: 20px; */
+    min-width: 200px;
+}
+
+#objective p , #education p, #leadership article {
+    width:90%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:left;
+}
+
+
+#leadership h2 {
+    margin-bottom: 0px;
+    color:#50c4c0;
+}
+
+#leadership p {
+    margin-top: 1px;
+}
+
+#charity_work {
+    background-color: #efefef;    
+    /*! width: 75%; */
+    margin-top:10px;
+}
+
+.mission_company {
+ color:#50c4c0;   
+}
+
+.mission_role {
+    font-weight: bold;
+}
+
+
+footer {
+    margin-top: 30px; 
+    
+}
+
+footer li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+footer ul {
+    display: flex; 
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 530px;
+}

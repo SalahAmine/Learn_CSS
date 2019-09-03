@@ -1,0 +1,164 @@
+body {
+    font-family: Verdana,sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    border-bottom : 3px solid black;
+    /* border width, style and color */
+    /*overflow: auto;*/
+}
+
+
+header #contacts {
+    float: right;
+    margin-bottom:0px;
+    padding-bottom: 0px;
+    width: 25%;
+}
+
+header #contacts li { 
+    list-style-type:none;
+}
+
+#fullname {
+    /* height: 50px; */
+    font-size: 4em;
+    line-height: 1.2;
+    width: 70%;
+    float:left;
+    margin-bottom: 15px;
+    /*! background-color: red; */
+    margin-top: 10px;
+}
+
+#prenom {
+    color:#50c4c0;
+}
+
+#nom {
+    font-weight: bold;
+}
+
+
+
+main{
+    margin-top:30px;
+    margin-left:10px;
+}
+
+#work_exp{
+    background-color: #efefef;
+    width: 75%;
+    float:left;
+}
+
+#work_exp article, #charity_work article {
+    float: left;
+    
+}
+
+#work_exp .annee_exec, #charity_work .annee_exec {
+    width: 6%;
+    float: left;
+    margin-top:80px;
+    padding-left:15px;
+    text-align: center;
+    
+}
+
+#work_exp .mission_gen, #charity_work .mission_gen { 
+    width: 90%;
+    max-width: 1000px;
+    float: left;
+    border-left : 2px solid black;
+    margin-top: 2px;
+    padding:12px;
+    text-align: justify;
+    
+}
+
+#objective, #education, #leadership {
+    background-color: #efefef;
+    width: 20%;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 65px;
+}
+
+
+#objective p , #education p, #leadership article {
+    width:90%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align:left;
+}
+
+
+#leadership h2 {
+    margin-bottom: 0px;
+    color:#50c4c0;
+}
+
+#leadership p {
+    margin-top: 1px;
+}
+#charity_work {
+    background-color: #efefef;    
+    width: 75%;
+    margin-top:10px;
+    clear:both;
+    float: left;
+}
+
+
+
+
+#work_exp h1, #objective h1, #education h1, #leadership h1, #charity_work h1{
+    padding:10px;
+    border-bottom: 3px solid black;
+    line-height:0.7;
+    font-size: 2em;
+    margin-bottom: 0px;
+  }
+
+
+.mission_company {
+ color:#50c4c0;   
+}
+
+.mission_role {
+    font-weight: bold;
+}
+
+
+footer {
+    margin-top: 30px; 
+    clear: both;
+    
+}
+
+footer li {
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+}
+
+
+footer ul {
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.clearfix:after { 
+    /* to prevent parent from collapsing, The class .clearfix is applied to any container that has floating children. */
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
