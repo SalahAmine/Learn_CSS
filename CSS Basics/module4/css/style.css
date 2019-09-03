@@ -1,0 +1,61 @@
+
+body {
+    font-family: Tahoma;
+    margin:0;
+}
+  
+  header {
+    background-color: #EC576B;
+    color: white;
+    border-bottom: 5px #FEDC3D solid;
+}
+  
+  header h1 {
+    border-bottom: 2px #FFFFFF solid;
+    margin:0px; 
+    width:50%;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 75px;
+    vertical-align: middle;
+  }
+  
+  header p {
+    border-bottom: 2px #FFFFFF solid;
+    text-align: center;
+    line-height:50px;
+    vertical-align: top;
+    
+  }
+  
+  section {
+    background-color: #FEDC3D;
+  }
+  
+  h2 {
+    border-bottom: 5px #000000 solid;
+  }
+  
+  article {
+    background-color: #FFFFFF;
+  }
+  
+  #leftP {
+  
+  }
+  
+  #rightP {
+  
+  }
+  
+  h3 {
+  
+  }
+  
+  footer {
+    background-color: #4EC5C1;
+    border-top: 5px #FEDC3D solid;
+    color: white;
+    margin:0;   
+  }

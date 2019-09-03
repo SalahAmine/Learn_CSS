@@ -1,0 +1,10 @@
+#parent10 {
+  border: 2px solid black; 
+  display:flex;
+  width:500px;
+}
+
+#parent10>div{
+  width:200px;
+  background-color: red;
+}

@@ -1,0 +1,52 @@
+body {
+    font-size: 24pt;
+    font-family: helvetica, sans-serif;
+}
+
+#default {
+    background-color: red;
+}
+
+#floating1{
+    float:left;
+    background-color: aqua;
+    width:40%
+}
+
+#habillage1{
+    background-color: blueviolet;
+}
+
+#floating2{
+    float:left;
+    background-color: aqua;
+}
+
+#floating3{
+    float:left;
+    background-color: rgb(140, 0, 255);
+
+}
+
+
+#floating4-a {
+    float: left;
+    background-color: beige;
+}
+
+#floating4-b {
+    float: left;
+    background-color: chartreuse;
+
+}
+
+#floating5-c {
+    float: left;
+    background-color:red;
+
+}
+
+
+#p3{
+    clear:left;
+}

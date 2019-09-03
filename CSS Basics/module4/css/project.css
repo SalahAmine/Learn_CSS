@@ -1,0 +1,98 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    border-bottom : 3px solid black;
+    /* border width, style and color */
+}
+
+header #contacts {
+    float: left;
+}
+
+header:after {
+  /* add a hidden + cleared  block after the floated elements to force the parent to expand its height and contain the folated elements */
+  display: block;
+  content: " ";
+  visibility: hidden;
+  clear: both;
+}
+
+
+header #contacts li { 
+
+    list-style-type:none;
+    
+}
+#fullname {
+    /* height: 50px; */
+    font-size: 4em;
+    line-height: 2;
+    float:left;
+    width: 70%;
+    
+}
+
+#prenom {
+    color:#50c4c0;
+}
+
+#nom {
+    font-weight: bold;
+}
+
+
+main {
+}
+
+#work_exp {
+        background-color: #efefef;
+        width: 70%;
+}
+
+#objective {
+      background-color: #efefef;
+      width:20%;
+      display: inline-block;
+    
+}
+
+#education {
+       background-color: #efefef;
+}
+
+#charity_work {
+       background-color: #efefef;
+}
+
+#work_exp h1, #objective h1, #education h1, #leadership h1, #charity_work h1{
+    padding:10px;
+    border-bottom: 3px solid black;
+    line-height:0.7;
+    font-size: 2em;
+    margin-bottom: 0px;
+  }
+
+
+#work_exp article {
+    /* background-color: blue; */
+    margin-top:3px;
+    width: 75%;
+    
+}
+#work_exp .annee_exec {
+    /* background-color: green; */
+    display: inline-block;
+    width:10%;
+    margin-top:80px;
+
+}
+
+#work_exp .mission_gen{
+   /* background-color: red; */
+    display: inline-block;
+    width:75%;
+    border-left: 2px solid black;    
+    padding-left:20px; 
+}
