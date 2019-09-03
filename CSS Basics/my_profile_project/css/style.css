@@ -66,3 +66,7 @@ footer nav ul li {
 .titles {
     color: #283e4a;
 }
+
+.job_title {
+    border-bottom:1px solid white;
+}
